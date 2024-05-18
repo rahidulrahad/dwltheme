@@ -6,6 +6,13 @@
         <section class="tm-section">
             <div class="container-fluid">
                 <div class="row">
+                    
+                    <aside class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 tm-aside-r">
+                            <?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?>
+                            <?php dynamic_sidebar( 'sidebar-4' ); ?>            
+                            <?php endif; ?>
+                    </aside>
+
 
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 col-xl-9">
                                                
@@ -42,12 +49,6 @@
                         </div>
                         
                     </div>
-
-                    <aside class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 tm-aside-r">
-                            <?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?>
-                            <?php dynamic_sidebar( 'sidebar-4' ); ?>            
-                            <?php endif; ?>
-                    </aside>
 
                 </div>
                 
